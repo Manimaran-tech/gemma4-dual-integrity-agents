@@ -1,0 +1,7 @@
+{
+  "kind": "repository_disjoint_issue_manifest_template",
+  "status": "empty_template_not_evaluation_data",
+  "required_fields_per_issue": ["task_id", "repository", "base_commit", "split", "issue_source", "license", "validation_command_or_official_task_reference"],
+  "issues": [],
+  "split_policy": "Freeze repository-disjoint development and held-out groups before tuning or training. Include failures and unattempted issues."
+}

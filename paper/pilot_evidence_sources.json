@@ -1,0 +1,24 @@
+{
+  "note": "Pins taken for the October 4 paper replay, not an original preregistration or new data collection.",
+  "comparison_id": "20261002T080929346071",
+  "run_ids": [
+    "20261002T080930808451",
+    "20261002T081108994616",
+    "20261002T081229692685",
+    "20261002T081452913350",
+    "20261002T081725233409",
+    "20261002T081950152738"
+  ],
+  "kind": "frozen_analysis_and_retained_raw_inventory_pins",
+  "files": {
+    "benchmarks/real_world/android17/runs/20261002T080930808451/SHA256.json": "a0734bdedadefd803e4ca650c05c25acd51587941615d3d32de74b1efa9dca24",
+    "benchmarks/real_world/comparisons/20261002T080929346071/analysis.json": "1597556390a3a87be652380d93522a2c8de48ac043131a55aa8930b61b3ecd22",
+    "benchmarks/real_world/comparisons/20261002T080929346071/SHA256.json": "3de480aef7f44a71c17711dfb7b0166557af02d70adde12f03ef68b65ac05b5b",
+    "benchmarks/real_world/android17/runs/20261002T081725233409/SHA256.json": "169b2d88d49025cbd005f9601ba22d2c2c5b14ad43f0e540c6eb0b19b825382d",
+    "benchmarks/real_world/android17/runs/20261002T081452913350/SHA256.json": "820166868420adbf18cdb705d3bd5830b72dcb6222d939bebe720380a3149211",
+    "benchmarks/real_world/android17/runs/20261002T081950152738/SHA256.json": "4069148797ac8aae248bd17e1f13726333e9a9b7fa546a22111bebd404a50db6",
+    "benchmarks/real_world/android17/runs/20261002T081229692685/SHA256.json": "2adcf7225eedde60761a16c4c6abd8598e0dc2d0fd0532a90559e682a310fea8",
+    "benchmarks/real_world/android17/runs/20261002T081108994616/SHA256.json": "bddbbcf5d4c10db6d2dee8161903895d7899fd49c2e8a7c4da1f5dd64e7f6cae"
+  },
+  "created_utc": "2026-10-04T08:24:54.9353942Z"
+}

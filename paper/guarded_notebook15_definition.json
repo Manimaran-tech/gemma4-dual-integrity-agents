@@ -1,0 +1,566 @@
+{
+  "scope": "locally_prepared_guarded_CPU_resource_replay_not_Kaggle_execution",
+  "notebook": "kaggle/15_paper_resource_guarded_replay.ipynb",
+  "notebook_sha256": "c863d00d1d3a4292b89ff6e2d174766fd982664a622724e8e77b8e97611c0aad",
+  "selected_input_count": 138,
+  "raw_inventory_file_count": 128,
+  "session_count": 6,
+  "selected_input_bytes": 177800241,
+  "selected_inputs": {
+    "benchmarks/real_world/android17/runs/20261002T080930808451/foreground_samples.jsonl": {
+      "sha256": "6959d3d8d31a0a74cbd00346d2ffad3b27e68138516e89bd8f4f003dd384ec6e",
+      "bytes": 945969
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/game_presentation.jsonl": {
+      "sha256": "fd0acfe9dd25f555e8781210e4d3274216982e8f84b270299a503ef6f1a9fdad",
+      "bytes": 142989
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/game_presentation_summary.json": {
+      "sha256": "baa4f468589a3de3268f181fa8add3dc5b1c1cf2f8c326baaa3b78b23ba5d89d",
+      "bytes": 516
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/gameplay_driver.jsonl": {
+      "sha256": "8ffffb17e666164f7df008136e9183bc534f02dd652d2c75f4e8efac76048edf",
+      "bytes": 5496
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/instrumentation.log": {
+      "sha256": "1fd0448033f346a675c2c65a049f2f356d69f24f165d3286e6c00991eb9a1bb3",
+      "bytes": 859
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/instrumentation_arguments.json": {
+      "sha256": "063a9a0c25b27061bfe58e43b06d1ef824801961ea371985ee3e659c48c7d0fe",
+      "bytes": 733
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/profiles_after.jsonl": {
+      "sha256": "880b61f1f84fb3767d31b0c821cd2b739816ec944aba02eea8f37d134b9bd7d4",
+      "bytes": 12833477
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/profiles_before.jsonl": {
+      "sha256": "880b61f1f84fb3767d31b0c821cd2b739816ec944aba02eea8f37d134b9bd7d4",
+      "bytes": 12833477
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/provenance.json": {
+      "sha256": "cfd6dc2269582953b71b4a7ffd2abfa4ee2c23dc8a133d72ada1bdd1f07b0145",
+      "bytes": 34759
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/readiness.json": {
+      "sha256": "1c0345a522e0f3896a0d3967d9f0569e3801c44d201a541392341c4817350a63",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/result.json": {
+      "sha256": "c86f4bc2a86f45aaee05de51a4b12d8997b58414ff8d5fdfd9f75b39a0958b4c",
+      "bytes": 969105
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/SHA256.json": {
+      "sha256": "a0734bdedadefd803e4ca650c05c25acd51587941615d3d32de74b1efa9dca24",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/summary.json": {
+      "sha256": "5aec062be81ca9120cce093793d18952d732cb9ff6df599b171b859c8c4cd00f",
+      "bytes": 1016
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T080930808451/windows_host_memory.jsonl": {
+      "sha256": "c74cbe7e265b12fe2502f36c5317021d95a417b389c229d771cfdf94b4a6d6fd",
+      "bytes": 8024
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/foreground_samples.jsonl": {
+      "sha256": "312a112b750de3f49fab808eb244a36ae16237380c62c0f03f9ca76dcde3784f",
+      "bytes": 790166
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/game_presentation.jsonl": {
+      "sha256": "f3bcf40a645b603bf7de8080e3a57258d7df2789446be18b3020d776f17d8074",
+      "bytes": 120681
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/game_presentation_summary.json": {
+      "sha256": "bd52701ba468886a5059e201e4a22c601a965d2a797ad3e291ccdf4643e528c9",
+      "bytes": 515
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/gameplay_driver.jsonl": {
+      "sha256": "37f7b1039342b27a39f59cbf2abff55f7f88e66104f604278d8de4fc61548334",
+      "bytes": 4580
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/instrumentation.log": {
+      "sha256": "3af7f36d41c05ee7e63d24b2e3afd07014bdfaa727079c850aedec2b51299733",
+      "bytes": 860
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/instrumentation_arguments.json": {
+      "sha256": "ebcd5c310028f948ee9174ba20af1944ece5a6e08457032dfe79299603d8fc1e",
+      "bytes": 730
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/profiles_after.jsonl": {
+      "sha256": "880b61f1f84fb3767d31b0c821cd2b739816ec944aba02eea8f37d134b9bd7d4",
+      "bytes": 12833477
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/profiles_before.jsonl": {
+      "sha256": "880b61f1f84fb3767d31b0c821cd2b739816ec944aba02eea8f37d134b9bd7d4",
+      "bytes": 12833477
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/provenance.json": {
+      "sha256": "7f8a77f9667f512aa00e2b39269f4e8cb381f6b84fa92f7e8bdce79be014a9e3",
+      "bytes": 34759
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/readiness.json": {
+      "sha256": "a455c5aa04eff02c155e071e2e0ef06acf05d7fa367e043bfccf7578745cec88",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/result.json": {
+      "sha256": "3326611601c18b2e1b727edb3f7e424fbe4db452f53a1ec613cee29a12e0fa62",
+      "bytes": 822593
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/SHA256.json": {
+      "sha256": "bddbbcf5d4c10db6d2dee8161903895d7899fd49c2e8a7c4da1f5dd64e7f6cae",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/summary.json": {
+      "sha256": "b887522aa3762692acbf16d6c469a96ceb68f7429dd67bf4a6433dda2aeded9a",
+      "bytes": 1387
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T081108994616/windows_host_memory.jsonl": {
+      "sha256": "9f2eac6cd570b5b3c9b839f2207339665f9d877e6898cf49a9c010459e73264b",
+      "bytes": 6674
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/foreground_samples.jsonl": {
+      "sha256": "27e2e1f44ae72aba089f23b2e1979d451fb27a52b4c2f4ebc7f63ba1ecfe9a76",
+      "bytes": 1376951
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/game_presentation.jsonl": {
+      "sha256": "44ea3905438b27228206e0c649f46bde863784b591d1520c81dc7b5964bc85b7",
+      "bytes": 216386
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/game_presentation_summary.json": {
+      "sha256": "576323103d262d0b1016464a951e14b18e796660247689ccacc38f65809b9567",
+      "bytes": 514
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/gameplay_driver.jsonl": {
+      "sha256": "e5b85ce87a270685219ba62d226760527680b6ce0409db19cc669b264e3cbc91",
+      "bytes": 8244
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/instrumentation.log": {
+      "sha256": "5ba991a9c0489da3764955f7dc5a91ca7b5edbcc7ee96247fd9ca4b819b7c963",
+      "bytes": 861
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/instrumentation_arguments.json": {
+      "sha256": "2a62428d5d343b0c3add75425274d6865c5d6ed4a9f43ec2dcb800a876c20ac7",
+      "bytes": 732
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/profiles_after.jsonl": {
+      "sha256": "7f7715ebff9df4ff85b38db7c41a9235fee36b6dfd75632320a4bdf73e8b3f0a",
+      "bytes": 12993880
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/profiles_before.jsonl": {
+      "sha256": "880b61f1f84fb3767d31b0c821cd2b739816ec944aba02eea8f37d134b9bd7d4",
+      "bytes": 12833477
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/provenance.json": {
+      "sha256": "93675cdb6475a8f2a51a6b858aa171d6bd93a902c46ace1fea6596aa3ed0a687",
+      "bytes": 34761
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/readiness.json": {
+      "sha256": "809a080ff7fef517ed29dd43b3753d312e7d8a603af50525d575dd4f45b1cc3b",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/result.json": {
+      "sha256": "dc594beb0df048898013bc563021053ea950bc64ab47b89c64e9dff4cc8ccb58",
+      "bytes": 1438962
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/SHA256.json": {
+      "sha256": "2adcf7225eedde60761a16c4c6abd8598e0dc2d0fd0532a90559e682a310fea8",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/summary.json": {
+      "sha256": "0eb9ac3d38f7bff2ab0999cb499856b21d2a98b21fcecd0bd2f2d385a85ed943",
+      "bytes": 1030
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T081229692685/windows_host_memory.jsonl": {
+      "sha256": "614bf35bd902d4b98d2f68618328da1dca987c5ef9e1d1596501d576cd73f765",
+      "bytes": 11951
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/foreground_samples.jsonl": {
+      "sha256": "8d971ce02200c14cc9fef8788b9cac2b5e8124037cdbf0676c92124f42563790",
+      "bytes": 1424885
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/game_presentation.jsonl": {
+      "sha256": "182fd88629e3e8968895ada11198a0babe06b06d5aace8fc91e51ebe51c48072",
+      "bytes": 225908
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/game_presentation_summary.json": {
+      "sha256": "a4374eff76a3d922d8bca9fa4fc661a960fea7facad85bf2ab62af4f3e807328",
+      "bytes": 513
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/gameplay_driver.jsonl": {
+      "sha256": "2a59fb81e9b449e9d8ba9bd0092c606134dc989d7dde2ede5f4831bf381bc0af",
+      "bytes": 8702
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/instrumentation.log": {
+      "sha256": "f07b0e15bf370373d8ef13b970425cc6471628398728c5be7533ca28bed46b6d",
+      "bytes": 861
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/instrumentation_arguments.json": {
+      "sha256": "0b867e71704011d576f683f2e0782427977975e18f03759dec3b9d4ff137ea40",
+      "bytes": 740
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/profiles_after.jsonl": {
+      "sha256": "a79108229d7c8a6df3d89e65badd4f0284f131eaeea0500253ad050c8810360f",
+      "bytes": 13169010
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/profiles_before.jsonl": {
+      "sha256": "7f7715ebff9df4ff85b38db7c41a9235fee36b6dfd75632320a4bdf73e8b3f0a",
+      "bytes": 12993880
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/provenance.json": {
+      "sha256": "7f78b75abb221f94f615fd4c1b467bc6c2827d0aedf95e574c8c7326319a1413",
+      "bytes": 34775
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/readiness.json": {
+      "sha256": "227d8b65d31f5110ede3809cf96b01a66cfa44fdb5767b66f36600bb84208111",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/result.json": {
+      "sha256": "6a096ea1802ebb0b5fba3af9b7824d2eff8a830d3ad8a87e99550c67f209010c",
+      "bytes": 1487993
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/SHA256.json": {
+      "sha256": "820166868420adbf18cdb705d3bd5830b72dcb6222d939bebe720380a3149211",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/summary.json": {
+      "sha256": "1e7ad75d147db2e522d553fedcbf4a53284507492fefbd4693363666256e1675",
+      "bytes": 1035
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T081452913350/windows_host_memory.jsonl": {
+      "sha256": "ad3e60e7809cab024d0edb2d616fb4af9dcf703f9c3e2105490b4c75abfc922f",
+      "bytes": 12478
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/foreground_samples.jsonl": {
+      "sha256": "be70e39c92ea155205ecd2a08ed48ad658a8c3886afd504fedd3776b6488245e",
+      "bytes": 1376919
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/game_presentation.jsonl": {
+      "sha256": "218c00443a49036ae7fe33b1150fa358df75dcf680e02821093ead65d603a96d",
+      "bytes": 219281
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/game_presentation_summary.json": {
+      "sha256": "235871633f837d6ee2290a3ebcd716ea9511d177986d968c3cf57d8b2c3163e9",
+      "bytes": 515
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/gameplay_driver.jsonl": {
+      "sha256": "5d4514135d6650d43a5ca59e42f1070906405d79c1bd2d53996952bd862deec6",
+      "bytes": 8473
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/instrumentation.log": {
+      "sha256": "2f016b71d2c90ef09d69f2c7c9297b820027c4c2f5756705dd8cfcb4709e36b0",
+      "bytes": 861
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/instrumentation_arguments.json": {
+      "sha256": "fc82e1abd668223c8ed73cd3c29fb10c1d07d34856917d20803379f0af3f0d14",
+      "bytes": 740
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/profiles_after.jsonl": {
+      "sha256": "5ce99ac1cc5e079324e9d44b3d34845f3f045e7799fb253edad3bc10abc4428d",
+      "bytes": 13332652
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/profiles_before.jsonl": {
+      "sha256": "a79108229d7c8a6df3d89e65badd4f0284f131eaeea0500253ad050c8810360f",
+      "bytes": 13169010
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/provenance.json": {
+      "sha256": "1e3b479404ae825a40982b3c15aa3147717c1a53dd101d5d454a73cece81fe39",
+      "bytes": 34772
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/readiness.json": {
+      "sha256": "06ca6bb996893f0779836c47d38faea7e2536caaaa1561eae0fcdf6ba4e2f14b",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/result.json": {
+      "sha256": "192ec879a79ce885858262eec7ed2bbe6804b58c47e48302fc6e3efb6b0168c0",
+      "bytes": 1438955
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/SHA256.json": {
+      "sha256": "169b2d88d49025cbd005f9601ba22d2c2c5b14ad43f0e540c6eb0b19b825382d",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/summary.json": {
+      "sha256": "30014c0ddcfd59d937f1e6609ada8f1d9dcf8f60b4eb793fe2a6803b19c14c4a",
+      "bytes": 1035
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T081725233409/windows_host_memory.jsonl": {
+      "sha256": "7f866949197a6d6486221e2612d0672e0a6b8f8b910dcda5b268dd6c546f3e74",
+      "bytes": 12156
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/foreground_samples.jsonl": {
+      "sha256": "fc0cc2f993cd02ec0c3a921516e157b6b8a61d9f0f9dfc68f98fc9afbecd01e0",
+      "bytes": 1472713
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/game_presentation.jsonl": {
+      "sha256": "a15921e68596b22ab2d65b40b2e4a8e3e8b2d58520ad253471e5ebb7be482340",
+      "bytes": 232161
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/game_presentation_summary.json": {
+      "sha256": "2f641d68578b9c1741f49e80951c7d108ac0615feb76dd9338c6af5077d4cf5b",
+      "bytes": 515
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/gameplay_driver.jsonl": {
+      "sha256": "1c35d7d4f365e00f2a6585355db84bcdedf5bb2f96f700845e857c455499c18e",
+      "bytes": 8931
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/instrumentation.log": {
+      "sha256": "fb381d9bfb9159285bd199a98b258aebe9c454fb0c8b5dff5d83338780f8bc76",
+      "bytes": 861
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/instrumentation_arguments.json": {
+      "sha256": "183e1020686e5210b2befd5317842314beb00ebc6e9ebdd5e05abe54871227c3",
+      "bytes": 732
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/profiles_after.jsonl": {
+      "sha256": "d2db105921c136e7b958257cb5839cedf50c787ad9380bcbb2d8bdf0f7af8b13",
+      "bytes": 13515710
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/profiles_before.jsonl": {
+      "sha256": "5ce99ac1cc5e079324e9d44b3d34845f3f045e7799fb253edad3bc10abc4428d",
+      "bytes": 13332652
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/profiles_seed.jsonl": {
+      "sha256": "4c70b513da4cd7d1212dfbb3bea4a56ebba24e457547bf32eb287f08a0a5ca8e",
+      "bytes": 730971
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/provenance.json": {
+      "sha256": "833124611167c58441ac4f6939fd4dd4c8b262bb52855c5fcbfcc3f925df58f9",
+      "bytes": 34762
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/readiness.json": {
+      "sha256": "44a2cd568d8b4abde97436ae70769cfad916766c9f2aa79feb52cf0c338e960e",
+      "bytes": 91
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/rendering_condition.json": {
+      "sha256": "b1f40f301202185ccd489c69f64ab618d033b2107cc144a31d0791af552f6980",
+      "bytes": 676
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/result.json": {
+      "sha256": "77e50888a957df62e6cf8437bdd6238277a1a4692f3be355edf122d3270584a2",
+      "bytes": 1536847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/setup_display.json": {
+      "sha256": "ebfb6b93c42ace0c4ff3a96ca1a025062fdbf0e14a532e570fe49743402c5ab8",
+      "bytes": 847
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/setup_luanti_game.json": {
+      "sha256": "469c8c374faf63d526ab31e1a6b5d01fe03eafcfc02ac9861610f7e10542aa61",
+      "bytes": 2388
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/setup_luanti_installation.json": {
+      "sha256": "781f3b93170e80061003ec69bbf6ee62756be09a17b2ac69d256bd38d1067a90",
+      "bytes": 693
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/SHA256.json": {
+      "sha256": "4069148797ac8aae248bd17e1f13726333e9a9b7fa546a22111bebd404a50db6",
+      "bytes": 1833
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/summary.json": {
+      "sha256": "307dd27beeebe55da22094a59ea6d73b41282549faa2bbfdf78d0f784cbe576e",
+      "bytes": 1030
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/surface_layers_before.txt": {
+      "sha256": "e6c2f934deaf9abd2edd3815c25c6b567e9514bc8c59008fd0ec17dfc25b9624",
+      "bytes": 6695
+    },
+    "benchmarks/real_world/android17/runs/20261002T081950152738/windows_host_memory.jsonl": {
+      "sha256": "6031a4cccf61534553d8cfa3a42d21b6ca1ab8a901032d829e6037cb814f4552",
+      "bytes": 12818
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/analysis.json": {
+      "sha256": "1597556390a3a87be652380d93522a2c8de48ac043131a55aa8930b61b3ecd22",
+      "bytes": 47059
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_0_stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_0_stdout.txt": {
+      "sha256": "7d7a4624fa4b5d671472815616cd63deec13273c80f50be5811437f068fde200",
+      "bytes": 935
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_1_stderr.txt": {
+      "sha256": "a0a142185daf416e4e05a740da5bf9f35b37cdfca53e4a6f63e5ceeb29165010",
+      "bytes": 530
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_1_stdout.txt": {
+      "sha256": "50171d496993b304ed8e86a55274932d3bd41bb241c2f303340352b4afc1c07b",
+      "bytes": 1286
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_2_stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_2_stdout.txt": {
+      "sha256": "c69ffcb6aa9501e9585a97c0e5a49bd2f9cec91866e244bb402b11ae238a56a7",
+      "bytes": 949
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_3_stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_3_stdout.txt": {
+      "sha256": "c9c8d8075845a4f0d2c26d4c4fb825b85e7805e3340ec3ad2dd8f0142550127c",
+      "bytes": 954
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_4_stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_4_stdout.txt": {
+      "sha256": "14c1e03dec4c0654a7f7a1639155101f83fc2ebc369a16da64aad9fbadb3aed7",
+      "bytes": 954
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_5_stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/episode_5_stdout.txt": {
+      "sha256": "91a19c3fe7763a05528367c76586f3cda6dc1c694ee1116c21e6ddbba0abe78f",
+      "bytes": 949
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/outcomes.json": {
+      "sha256": "f28a4eeeb5147f7918b2b13ee59deeb80748e2819a095773737890d0c0fb074b",
+      "bytes": 8244
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/plan.json": {
+      "sha256": "74726612c5b7b0eb1172b740ab48f3cb71c73b30025c9ff4696b1a8ac55c3e4b",
+      "bytes": 10887
+    },
+    "benchmarks/real_world/comparisons/20261002T080929346071/SHA256.json": {
+      "sha256": "3de480aef7f44a71c17711dfb7b0166557af02d70adde12f03ef68b65ac05b5b",
+      "bytes": 1317
+    },
+    "paper/pilot_evidence_sources.json": {
+      "sha256": "b2fda28c2287d7cebb1a8dc983a3df0e24eb878a968c965a36304744c050a11a",
+      "bytes": 1667
+    },
+    "paper/replay_pilot_evidence.py": {
+      "sha256": "a2a681c431ac45d70210b96a046bd3bc7e7f6a5a718d422c5c6b21af07195d5f",
+      "bytes": 9397
+    }
+  },
+  "external_dependencies": [],
+  "Kaggle_executed": false,
+  "model_or_device_execution": false
+}

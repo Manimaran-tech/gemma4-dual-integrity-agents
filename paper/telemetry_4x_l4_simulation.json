@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-10-22 12:23:29",
+  "schema_audit": {
+    "e4b_passed": true,
+    "v39_passed": true
+  },
+  "fluxkv_simulation": {
+    "summary": {
+      "total_tokens": 13500,
+      "fp16_tokens": 0,
+      "int4_tokens": 2027,
+      "int2_tokens": 11473,
+      "kv_vram_mib": 1213.05,
+      "residual_promotions": 26745
+    },
+    "snapshots_25_turns": [
+      {
+        "total_tokens": 500,
+        "vram_mib": 99.69,
+        "fp16_tokens": 46,
+        "int4_tokens": 454,
+        "int2_tokens": 0,
+        "promotions": 0
+      },
+      {
+        "total_tokens": 900,
+        "vram_mib": 140.62,
+        "fp16_tokens": 0,
+        "int4_tokens": 900,
+        "int2_tokens": 0,
+        "promotions": 454
+      },
+      {
+        "total_tokens": 1300,
+        "vram_mib": 203.12,
+        "fp16_tokens": 0,
+        "int4_tokens": 1300,
+        "int2_tokens": 0,
+        "promotions": 1354
+      },
+      {
+        "total_tokens": 1700,
+        "vram_mib": 265.62,
+        "fp16_tokens": 0,
+        "int4_tokens": 1700,
+        "int2_tokens": 0,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 2500,
+        "vram_mib": 195.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 2500,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 3300,
+        "vram_mib": 257.81,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 3300,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 4100,
+        "vram_mib": 320.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 4100,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 4900,
+        "vram_mib": 382.81,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 4900,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 5700,
+        "vram_mib": 445.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 5700,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 6500,
+        "vram_mib": 507.81,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 6500,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 7300,
+        "vram_mib": 570.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 7300,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 8100,
+        "vram_mib": 632.81,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 8100,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 8900,
+        "vram_mib": 695.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 8900,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 9700,
+        "vram_mib": 757.81,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 9700,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 10500,
+        "vram_mib": 820.31,
+        "fp16_tokens": 0,
+        "int4_tokens": 0,
+        "int2_tokens": 10500,
+        "promotions": 2654
+      },
+      {
+        "total_tokens": 10800,
+        "vram_mib": 961.25,
+        "fp16_tokens": 0,
+        "int4_tokens": 1504,
+        "int2_tokens": 9296,
+        "promotions": 6181
+      },
+      {
+        "total_tokens": 11100,
+        "vram_mib": 994.22,
+        "fp16_tokens": 0,
+        "int4_tokens": 1626,
+        "int2_tokens": 9474,
+        "promotions": 9286
+      },
+      {
+        "total_tokens": 11400,
+        "vram_mib": 1025.62,
+        "fp16_tokens": 0,
+        "int4_tokens": 1728,
+        "int2_tokens": 9672,
+        "promotions": 12151
+      },
+      {
+        "total_tokens": 11700,
+        "vram_mib": 1052.5,
+        "fp16_tokens": 0,
+        "int4_tokens": 1772,
+        "int2_tokens": 9928,
+        "promotions": 14635
+      },
+      {
+        "total_tokens": 12000,
+        "vram_mib": 1081.72,
+        "fp16_tokens": 0,
+        "int4_tokens": 1846,
+        "int2_tokens": 10154,
+        "promotions": 16999
+      },
+      {
+        "total_tokens": 12300,
+        "vram_mib": 1111.56,
+        "fp16_tokens": 0,
+        "int4_tokens": 1928,
+        "int2_tokens": 10372,
+        "promotions": 19202
+      },
+      {
+        "total_tokens": 12600,
+        "vram_mib": 1137.66,
+        "fp16_tokens": 0,
+        "int4_tokens": 1962,
+        "int2_tokens": 10638,
+        "promotions": 21204
+      },
+      {
+        "total_tokens": 12900,
+        "vram_mib": 1163.44,
+        "fp16_tokens": 0,
+        "int4_tokens": 1992,
+        "int2_tokens": 10908,
+        "promotions": 23079
+      },
+      {
+        "total_tokens": 13200,
+        "vram_mib": 1191.33,
+        "fp16_tokens": 0,
+        "int4_tokens": 2049,
+        "int2_tokens": 11151,
+        "promotions": 24948
+      },
+      {
+        "total_tokens": 13500,
+        "vram_mib": 1213.05,
+        "fp16_tokens": 0,
+        "int4_tokens": 2027,
+        "int2_tokens": 11473,
+        "promotions": 26745
+      }
+    ]
+  },
+  "empirical_benchmarks": {
+    "replicated_16_condition_matrix": {
+      "unchecked_wrong_verdicts": 4,
+      "unchecked_unsupported_claims": 8,
+      "preflight_wrong_verdicts": 4,
+      "preflight_unsupported_claims": 8,
+      "check_process_wrong_verdicts": 0,
+      "check_process_unsupported_claims": 0,
+      "check_process_clean_abstentions": 8
+    },
+    "swebench_live_trajectory": {
+      "v31_baseline_score": 0.1724,
+      "v36_multifile_v1_score": 0.1293,
+      "v37_multifile_v2_score": 0.1034,
+      "manski_lower_bound": 0.175,
+      "manski_upper_bound": 0.2667
+    }
+  }
+}

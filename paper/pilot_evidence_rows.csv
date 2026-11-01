@@ -1,0 +1,7 @@
+label,run_id,policy,assigned,completed_resource_requests,median_provider_latency_ms,foreground_samples,expected_foreground_samples,forecast_soft_excess_mib,semantic_correctness,matched_arm
+ordinary_app_reference,20261002T080930808451,NO_AI,0,0,,79,79,0,,False
+strict_resident_zero_risk_diagnostic,20261002T081108994616,PREDICTIVE,3,0,,66,66,0,,False
+matched_A1,20261002T081229692685,PREDICTIVE,3,3,18796,115,115,128,,True
+matched_B1,20261002T081452913350,BUDGET_REACTIVE,3,3,22331,119,119,0,,True
+matched_B2,20261002T081725233409,BUDGET_REACTIVE,3,3,19138,115,115,0,,True
+matched_A2,20261002T081950152738,PREDICTIVE,3,3,22648,123,123,128,,True

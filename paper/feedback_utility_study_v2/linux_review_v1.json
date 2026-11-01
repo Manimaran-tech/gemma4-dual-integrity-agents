@@ -1,0 +1,62 @@
+{
+  "observed_utc": "2026-10-09T06:19:44.589633+00:00",
+  "reviewer_sha256": "ac6eb8107271b315709c1a3758826071ae01b9744e821de2b05ae6d925def4da",
+  "source_sha256": {
+    "reports/kaggle_runs/20261009_production_first_qualification_terminal_v1/recovered_checkpoints/0013_4487bc220930d9f110b0c9ff2f4db8f4364513ebfca9bcfa8acc14664c6975c0/multi_project_feedback_linux/linux_actual_v1.json": "7081db4362243b117e3a8706b66428abe0dd830ae28a2a2f14be7ea2b7273b8f",
+    "reports/kaggle_runs/20261009_production_first_qualification_terminal_v1/recovered_checkpoints/0013_4487bc220930d9f110b0c9ff2f4db8f4364513ebfca9bcfa8acc14664c6975c0/multi_project_feedback_linux/plan.json": "8d936f292cb84bb87473a5fda000e43434d26cabbffad7fbab094b6ca71a8e79",
+    "reports/kaggle_runs/20261009_production_first_qualification_terminal_v1/recovered_checkpoints/0013_4487bc220930d9f110b0c9ff2f4db8f4364513ebfca9bcfa8acc14664c6975c0/multi_project_feedback_linux/snapshot_manifest.json": "328ac97986d053dda6b6af926c82635ac50036a3af956c50e226c975a3d3f003",
+    "reports/kaggle_runs/20261009_production_first_qualification_terminal_v1/recovered_checkpoints/0013_4487bc220930d9f110b0c9ff2f4db8f4364513ebfca9bcfa8acc14664c6975c0/multi_project_feedback_linux/feedback_utility_replay.py": "9cee4e1b5b5b40ed561e1d71120932f40944497d78a50de20b65189dccaa5186"
+  },
+  "status": "all288_original_Linux_conditions_reconciled",
+  "assigned_conditions": 288,
+  "completed_conditions": 288,
+  "unknown_conditions": 0,
+  "policy_summary": {
+    "exit_only": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "version_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "preflight_origin_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "actual_API_process_origin_and_exit": {
+      "decisions": 144,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 144
+    },
+    "always_unknown": {
+      "decisions": 0,
+      "correct_supported_decisions": 0,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 288
+    }
+  },
+  "observer_exit_changes": 0,
+  "descriptive_check_latency": {
+    "observer_off": 0.19877566249999745,
+    "observer_on": 0.205921230499996
+  },
+  "nonfatal_Kaggle_sitecustomize_wrapt_warnings_in_API_checks": 576,
+  "warning_limitation": "Kaggle global sitecustomize printed a missing-wrapt warning. API assertions and source receipts completed; no clean startup or causal timing claim.",
+  "timing_limitation": "Fixed observer-off-before-on order; OS/cache/startup effects are not isolated.",
+  "model_repair_accuracy": null,
+  "natural_fault_prevalence": null,
+  "actual_executed_byte_guarantee": false
+}

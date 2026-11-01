@@ -1,0 +1,83 @@
+{
+  "observed_utc": "2026-10-09T05:53:33.020762+00:00",
+  "status": "all288_original_conditions_reconciled",
+  "policy_summary": {
+    "exit_only": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "version_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "preflight_origin_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "actual_API_process_origin_and_exit": {
+      "decisions": 144,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 144
+    },
+    "always_unknown": {
+      "decisions": 0,
+      "correct_supported_decisions": 0,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 288
+    }
+  },
+  "project_counts": {
+    "packaging": {
+      "assigned": 96,
+      "wrong_exit_only": 24,
+      "actual_process_supported_decisions": 48
+    },
+    "idna": {
+      "assigned": 96,
+      "wrong_exit_only": 24,
+      "actual_process_supported_decisions": 48
+    },
+    "urllib3": {
+      "assigned": 96,
+      "wrong_exit_only": 24,
+      "actual_process_supported_decisions": 48
+    }
+  },
+  "API_observer_exit_changes": 0,
+  "descriptive_check_latency": {
+    "observer_off": {
+      "median_seconds": 0.125
+    },
+    "observer_on": {
+      "median_seconds": 0.1410000000000764
+    }
+  },
+  "timing_limitation": "Fixed off-before-on order and OS/cache effects; no causal overhead or mobile responsiveness claim.",
+  "constructed_same_length_faults": true,
+  "natural_fault_prevalence": null,
+  "model_repair_accuracy": null,
+  "actual_executed_byte_guarantee": false,
+  "all_dependencies_plugins_workers_covered": false,
+  "host_and_original_snapshots_unchanged": true,
+  "Linux_multilibrary_replication_pending": true,
+  "review_is_scalar_reconciliation_not_new_grading_or_inference": true,
+  "source_sha256": {
+    "scripts/review_feedback_utility_actual.py": "c9d029e74fbb47788390162130332a31d852cf0cdeeef7925bb66fbb05d45e33",
+    "paper/feedback_utility_study_v2/windows_actual_v1.json": "30aaf62b02a2d489cd32a09ab14c0c448a407116daa147a3f4c84329b9801978",
+    "paper/feedback_utility_study_v2/plan.json": "8d936f292cb84bb87473a5fda000e43434d26cabbffad7fbab094b6ca71a8e79",
+    "paper/feedback_utility_study_v2/snapshot_manifest.json": "328ac97986d053dda6b6af926c82635ac50036a3af956c50e226c975a3d3f003",
+    "paper/feedback_utility_study_v2/feedback_utility_replay.py": "9cee4e1b5b5b40ed561e1d71120932f40944497d78a50de20b65189dccaa5186"
+  }
+}

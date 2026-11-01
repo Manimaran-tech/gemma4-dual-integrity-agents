@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-06T14:18:13.705646+00:00",
+  "output": "paper/figures/repair_paper_card_crop_safe_20261006.png",
+  "width": 560,
+  "height": 560,
+  "content_in_central_2_to_1_band": true,
+  "output_sha256": "0f698eeb4c57aed3d8e28b630b7e6ccf32c4b1eee7883fc4519c8222e0dd2a11",
+  "source_sha256": "1d506efa2b8eeab8c5a466afc92cff8fe469787709531487368727d5f7e75290",
+  "native_agent_workspace_imports": [
+    0,
+    4
+  ],
+  "qualified_cases": [
+    0,
+    4
+  ],
+  "cases_per_condition": 4,
+  "fresh_experiment_or_model_inference_executed": false,
+  "purpose": "Paper writeup thumbnail; existing CPU control data only"
+}

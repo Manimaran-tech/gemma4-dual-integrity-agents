@@ -1,0 +1,13 @@
+{
+  "attempts_this_continuation": 3,
+  "source_preserved": true,
+  "compiler": "built_in_document_compiler",
+  "diagnostic_log": "Unable to find standard directories for platform",
+  "original_failure_record": "reports/latex_compilation.json",
+  "path": "D:\\AI OS (ANDRIOD)\\paper\\main.tex",
+  "reported_kind": "compile-failed",
+  "recorded_utc": "2026-10-04T08:31:14.3234563Z",
+  "source_sha256": "c90556c83aaa2b4aafa0e46d6e63e95e41b703b8cb572dbc4d78f1a638bbe392",
+  "success": false,
+  "scope": "platform_failure_no_verified_PDF"
+}

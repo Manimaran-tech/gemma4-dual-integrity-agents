@@ -1,0 +1,19 @@
+{
+  "clean_directory": "C:\\Users\\K\\AppData\\Local\\Temp\\neuralos-paper-replay\\5de129a1380f4c6c9da1351c7e04bfe3",
+  "clean_directory_json_matches": true,
+  "clean_directory_csv_matches": true,
+  "repository_json_matches": true,
+  "repository_csv_matches": true,
+  "inventory_files_verified": 128,
+  "sessions": 6,
+  "strict_zero_allowance_assigned": 3,
+  "strict_zero_allowance_completed": 0,
+  "run_identities": [
+    "20261002T080930808451",
+    "20261002T081108994616",
+    "20261002T081229692685",
+    "20261002T081452913350",
+    "20261002T081725233409",
+    "20261002T081950152738"
+  ]
+}

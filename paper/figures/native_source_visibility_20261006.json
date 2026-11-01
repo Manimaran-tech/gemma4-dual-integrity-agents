@@ -1,0 +1,93 @@
+{
+  "scope": "Native source-edit visibility controls, not model repair accuracy",
+  "conditions": [
+    {
+      "condition": "Inspect only",
+      "repositories": [
+        {
+          "repo": "psf/requests",
+          "visible": 0,
+          "assigned": 3
+        },
+        {
+          "repo": "fastapi/fastapi",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "Textualize/rich",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "encode/httpx",
+          "visible": 0,
+          "assigned": 1
+        }
+      ],
+      "visible": 6,
+      "assigned": 10
+    },
+    {
+      "condition": "Conditional install",
+      "repositories": [
+        {
+          "repo": "psf/requests",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "fastapi/fastapi",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "Textualize/rich",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "encode/httpx",
+          "visible": 0,
+          "assigned": 1
+        }
+      ],
+      "visible": 9,
+      "assigned": 10
+    },
+    {
+      "condition": "Explicit validation fallback",
+      "repositories": [
+        {
+          "repo": "psf/requests",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "fastapi/fastapi",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "Textualize/rich",
+          "visible": 3,
+          "assigned": 3
+        },
+        {
+          "repo": "encode/httpx",
+          "visible": 1,
+          "assigned": 1
+        }
+      ],
+      "visible": 10,
+      "assigned": 10
+    }
+  ],
+  "source_sha256": {
+    "reports/kaggle_runs/20261006_source_guard_native_manifest_v2/reconciliation.json": "9bf1a2c9b152ad885713115fe2ca1ab17d84d8e465d22e604526eec8eb2c81e0",
+    "reports/kaggle_runs/20261006_source_validation_native_panel/reconciliation.json": "fd2c0cd99b8c750cae5a51faf1e03aa47a6a09f29daa254f3d367e4596185e0a"
+  },
+  "same_cases_repeated": true,
+  "model_inference_executed": false,
+  "explicit_fallback_changes_validation_environment_not_default_imports": true
+}

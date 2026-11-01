@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-06T09:00:42.618225+00:00",
+  "case_ids": [
+    "requests_7328",
+    "requests_6629",
+    "requests_7505",
+    "requests_7309"
+  ],
+  "qualified_cases": [
+    0,
+    4
+  ],
+  "native_agent_workspace_imports": [
+    0,
+    4
+  ],
+  "cases_per_condition": 4,
+  "qualification_rule": "Clean base fails and official reference passes under the same native verifier",
+  "setup": "Unchanged native subprocess setup versus genuine offline editable installation",
+  "native_agent_transport": "Three identical synthetic HTTP replies per condition, real native setup/compiler/tools; no Gemma inference",
+  "model_inference_executed": false,
+  "candidate_gain_established": false,
+  "private_scoring_equivalence_established": false,
+  "input_sha256": {
+    "reports/kaggle_runs/20261006_requests_import_native_instance/reconciliation.json": "c0b671dd0dc247f4846c1ce0260e8f10ffb220edf07a928857c7b0cb001ed20b",
+    "reports/kaggle_runs/20261006_requests_setup_hook_controls/reconciliation.json": "8ddfa169854593c749e3fedd2df535c7a34ec6adcc198abc27075723520415e0",
+    "reports/kaggle_runs/20261006_requests_native_agent_import/reconciliation.json": "ad26bf1dfb1fc4c7ec590f4d86b2e61f92bb1110dbdf4243aebc5c4f9508150d"
+  },
+  "figure_sha256": {
+    "paper/figures/requests_environment_controls_20261006.png": "60363900dc14be71213817e308af1309017eeb24cfade03908a72b21969a426f",
+    "paper/figures/requests_environment_controls_20261006.svg": "de534af398b2d69adc9c2b579042bc7f9841ed6811e7d95b6b8955d7dbf564b3"
+  }
+}

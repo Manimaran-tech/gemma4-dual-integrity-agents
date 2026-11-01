@@ -1,0 +1,66 @@
+{
+  "policy_summary": {
+    "exit_only": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "version_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "preflight_origin_and_exit": {
+      "decisions": 288,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 72,
+      "unsupported_source_claims": 144,
+      "unknown": 0
+    },
+    "actual_API_process_origin_and_exit": {
+      "decisions": 144,
+      "correct_supported_decisions": 144,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 144
+    },
+    "always_unknown": {
+      "decisions": 0,
+      "correct_supported_decisions": 0,
+      "wrong_checkout_verdicts": 0,
+      "unsupported_source_claims": 0,
+      "unknown": 288
+    }
+  },
+  "plotted_counts": [
+    [
+      144,
+      72,
+      72,
+      0
+    ],
+    [
+      144,
+      0,
+      0,
+      144
+    ],
+    [
+      0,
+      0,
+      0,
+      288
+    ]
+  ],
+  "counts_per_OS_not_pooled": true,
+  "source_sha256": {
+    "paper/plot_feedback_utility.py": "f33bda4f7b01e89056e671de9f2c983264112ff3e10020276c98213d30d04629",
+    "paper/feedback_utility_study_v2/windows_review_v1.json": "a058c10e03284bfdd2be3b678cd1eff0ab1183fc0f882787930854613b7f0fc7",
+    "paper/feedback_utility_study_v2/linux_review_v1.json": "88fcbb97bf160f2636353670c18498c4bf24d9d9f9398c66fc5a683e37de993e"
+  },
+  "errors_are_constructed_conditions_not_natural_issue_prevalence": true
+}

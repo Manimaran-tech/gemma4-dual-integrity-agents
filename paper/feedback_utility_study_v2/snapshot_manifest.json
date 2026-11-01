@@ -1,0 +1,157 @@
+{
+  "created_utc": "2026-10-09T05:43:54.249678+00:00",
+  "projects": [
+    {
+      "name": "packaging",
+      "edited_path": "packaging/utils.py",
+      "observed_modules": [
+        "packaging",
+        "packaging.utils"
+      ],
+      "assertion": "from packaging.utils import canonicalize_name\nassert canonicalize_name(\"Django_Name\") == \"django-name\"\n",
+      "fault": {
+        "old": "value = name.lower().replace",
+        "new": "value = name.upper().replace"
+      },
+      "primary_documentation": "https://packaging.pypa.io/en/stable/utils.html",
+      "version": "26.3",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 22,
+      "licenses": [
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE",
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ],
+      "original_edited_source_sha256": "a13742cd9994eeca5adfb0249d126408c478026eb1f48cb97afbf2fe9f28ecc6",
+      "faulty_edited_source_sha256": "0221aac33143438a4e1b7021d3e338b0285b701b246daac94c2a0fdaf75acb43",
+      "assertion_sha256": "78189c5de1700643bc75d7c87eedf6d7c163d47cf8a4fc7dedaac3018fe94833"
+    },
+    {
+      "name": "idna",
+      "edited_path": "idna/core.py",
+      "observed_modules": [
+        "idna",
+        "idna.core"
+      ],
+      "assertion": "from idna.core import valid_label_length\nassert valid_label_length(\"a\" * 62) is True\n",
+      "fault": {
+        "old": "return len(label) <= 63",
+        "new": "return len(label) <= 61"
+      },
+      "primary_documentation": "https://github.com/kjd/idna",
+      "version": "3.20",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 10,
+      "licenses": [
+        "sources/idna/idna-3.20.dist-info/licenses/LICENSE.md"
+      ],
+      "original_edited_source_sha256": "3dd4c3ffee4ff223207fac65f3812a1e6895ae8ad1e7a6ed60115768f3551520",
+      "faulty_edited_source_sha256": "e0407b44d1bebd5ae7a3beb63b970fa98997ecc70feae729412910b68025ab2b",
+      "assertion_sha256": "081762dc1ad324054f64ce65c6795757958e8e0ca28f5f20f320991f71205153"
+    },
+    {
+      "name": "urllib3",
+      "edited_path": "urllib3/_collections.py",
+      "observed_modules": [
+        "urllib3",
+        "urllib3._collections"
+      ],
+      "assertion": "from urllib3._collections import HTTPHeaderDict\nh = HTTPHeaderDict({\"Content-Type\": \"text/plain\"})\nassert h.get(\"CONTENT-TYPE\") == \"text/plain\"\n",
+      "fault": {
+        "old": "val = self._container[key.lower()]\n        return \", \".join(val[1:])",
+        "new": "val = self._container[key.upper()]\n        return \", \".join(val[1:])"
+      },
+      "primary_documentation": "https://github.com/urllib3/urllib3",
+      "version": "2.8.0",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 36,
+      "licenses": [
+        "sources/urllib3/urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "original_edited_source_sha256": "1fac8ba8659d64d919d0b9bf7e72c4caaba59ce716eaab570a1daacf183bdf15",
+      "faulty_edited_source_sha256": "1ed222ecbd8767f77a3bcef6b71885ca5f18553a9870f76778dab7170c88ffc9",
+      "assertion_sha256": "af4f652a04120407d6e12b7a63ab115a07c93a948014b328d7969547a0e20fd9"
+    }
+  ],
+  "files": {
+    "sources/packaging/packaging-26.3.dist-info/METADATA": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763",
+    "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+    "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.APACHE": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+    "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.BSD": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+    "sources/packaging/packaging/__init__.py": "6e758cdd0028b2cad74c739b9adc9c9f06f054932306280b878bfe59d39219b5",
+    "sources/packaging/packaging/_elffile.py": "1f025f54c573f1a85740c4fbd908cc1d1fb0c177c14377ebf5f09d6cd5368780",
+    "sources/packaging/packaging/_manylinux.py": "5b6e84324c42538ab4cdb148e2430fdba36f04427b0efda55bea083a35fa6136",
+    "sources/packaging/packaging/_musllinux.py": "0328fb827b1170c77df4c107d49be8df8d37262103490a61e8acad8a2f9cadff",
+    "sources/packaging/packaging/_parser.py": "88a348115209327497e453b635e5db099fd592f9335d710c7313b29cdb30c50c",
+    "sources/packaging/packaging/_ranges.py": "b7b595f2e692aeb3697c545b85c24cbbcb4552f2adc6d9059aa82d0877e816b7",
+    "sources/packaging/packaging/_structures.py": "eb48d16c5efca7ccf930a9cd77a700a6b80e69d0891d5d03966526441a8565cb",
+    "sources/packaging/packaging/_tokenizer.py": "cc25e57c0d564c89e15073471d6e1c264299ca946fb17c0e1e4af54ef7713ee6",
+    "sources/packaging/packaging/dependency_groups.py": "5309cc564ca3022dfb594816e9d593bb09cdf34208c1fb8c5ec9afb6c670278c",
+    "sources/packaging/packaging/direct_url.py": "843baa95d04cbb49288de9d9fd77ee946e862cb603123e7e46a69e171fa7d06b",
+    "sources/packaging/packaging/errors.py": "ea17c461701ff2ffc817ae7e94569d24e30889e04fdb120ab721178c6d67188b",
+    "sources/packaging/packaging/licenses/__init__.py": "590d12eee73ddbec53b4e9ee5bfc64d9cb3aacb4940e8ebcba260757ce56740b",
+    "sources/packaging/packaging/licenses/_spdx.py": "596ec35e2ca0ebcba9fd8343ff0a51625af548786257815f24b41f7e08613314",
+    "sources/packaging/packaging/markers.py": "6cbe860d35d98d2b599e7f0ec73feab124e015711b30be9045e678c92940d9cc",
+    "sources/packaging/packaging/metadata.py": "934149f420a5449e6f376aa61d6f26a0823eb82cc7c6a1c8cde5aa7be43d0f63",
+    "sources/packaging/packaging/pylock.py": "1bce0a9fe63e42b87e8ced05da272baf16a68aa704b3718405e2735a6112467c",
+    "sources/packaging/packaging/ranges.py": "b4781ce913e5dff9e07906f20585c54c3028e1f7ff56341828e79d522ddbfab6",
+    "sources/packaging/packaging/requirements.py": "459476eb2107fe30e6b1310051a5bdb44c7d3b7f78e0e87bada268282cba62f5",
+    "sources/packaging/packaging/specifiers.py": "661ad31ddf45ffb861d2626734f4e3d66966029b8fdb79586bb105825d8d9d59",
+    "sources/packaging/packaging/tags.py": "0e717a082a79620d79cf0321b420df15593c4916fcda03c27cb9d82e07ef5d6e",
+    "sources/packaging/packaging/utils.py": "a13742cd9994eeca5adfb0249d126408c478026eb1f48cb97afbf2fe9f28ecc6",
+    "sources/packaging/packaging/version.py": "558b2fb50fd198c660a4c082f96b8919c565911b6b4b6e07f34b6b60c074be97",
+    "sources/idna/idna-3.20.dist-info/METADATA": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85",
+    "sources/idna/idna-3.20.dist-info/licenses/LICENSE.md": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+    "sources/idna/idna/__init__.py": "8514c3ed53136a3596ebdf512fa487bbdd7da5a99adcaed82e0363d2c306d3af",
+    "sources/idna/idna/__main__.py": "e0930aeba5a3e2e2d94ca6c5fac4f72c0c4eb2be9bba283becf98e909091471c",
+    "sources/idna/idna/cli.py": "2e01972a25e67afdfba5d824013c01e808893916539c0db33f72f37c42b8896a",
+    "sources/idna/idna/codec.py": "7dff4247d75e6e265cbea1261f10d122ba9299a371429cfa018e091ec0b7602d",
+    "sources/idna/idna/compat.py": "4ff7995ce52dd1be5381ae7a70fc9b42ef420982b41532b599d88f6fdea76bc0",
+    "sources/idna/idna/core.py": "3dd4c3ffee4ff223207fac65f3812a1e6895ae8ad1e7a6ed60115768f3551520",
+    "sources/idna/idna/idnadata.py": "23a9a8c1d15de9c634d0bf213d779810f485083fe1b0f7e09044ad04a69cc7eb",
+    "sources/idna/idna/intranges.py": "838f6c70b4a4a89b4084b98e3836bb8551eb8928e66fad2d893b04a287097412",
+    "sources/idna/idna/package_data.py": "ae759534a3c582a00ac856cfca464a39ee8251d393208d8af06b605bc20e02a9",
+    "sources/idna/idna/uts46data.py": "770e849bfa156c71828a89440a57fe9aea70735f103ae4616ee4f682e13d6c00",
+    "sources/urllib3/urllib3-2.8.0.dist-info/METADATA": "10898c620e8007c030e07fa5622b68358a43010025dfbd78a1cb797699de2bb4",
+    "sources/urllib3/urllib3-2.8.0.dist-info/licenses/LICENSE.txt": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+    "sources/urllib3/urllib3/__init__.py": "24ca35b60d67215d40789daf10d0bf4f17e5d1ee61e86ce5f43195935ad645ba",
+    "sources/urllib3/urllib3/_base_connection.py": "1f37121077b1803ad152beb48cd9e20762908ddc3ded279d0f996e45f1ed0978",
+    "sources/urllib3/urllib3/_collections.py": "1fac8ba8659d64d919d0b9bf7e72c4caaba59ce716eaab570a1daacf183bdf15",
+    "sources/urllib3/urllib3/_request_methods.py": "802785f3948efd45385a83f0607228cffb70f9e33f1153a42c5a7c385b02ec30",
+    "sources/urllib3/urllib3/_version.py": "7b84320186a7a1805134fd8aeaa0d508e80116851aecbd23f7561042c5073bd4",
+    "sources/urllib3/urllib3/connection.py": "8a59dab3d7b6a0e1b38a5fd6e565ef6a49381bb995729d015e4f6440ab8523e0",
+    "sources/urllib3/urllib3/connectionpool.py": "6a147869216b94449a053e869d4311cba23294551c83ee20fe5d2f1eaff50a3e",
+    "sources/urllib3/urllib3/contrib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sources/urllib3/urllib3/contrib/emscripten/__init__.py": "c325ef7bcae6a97eecd8aa91401c43e56978f23cd63e7e7ed6efd7a100442d57",
+    "sources/urllib3/urllib3/contrib/emscripten/connection.py": "822125b01a14b0a55445b6736fc182ac99aa5b6dd79ef8f668dc90545e36b258",
+    "sources/urllib3/urllib3/contrib/emscripten/fetch.py": "e7171dfbebe217165dda7072d1a2bbdddb49f53b21d7261953f4945f09f089b9",
+    "sources/urllib3/urllib3/contrib/emscripten/request.py": "98bdbcb33cb52af137349856a2be633666aba7c830a650d4fbb8301996398344",
+    "sources/urllib3/urllib3/contrib/emscripten/response.py": "083a58d0616896e47723110290cda01f9b837d80ccd042f5156afb07beb0b603",
+    "sources/urllib3/urllib3/contrib/pyopenssl.py": "5acf2f0ae6527e023a4031da552246600f6e753581f4a2f4c19ff4d7c88a8230",
+    "sources/urllib3/urllib3/contrib/socks.py": "81141f708d6928e021e62238fd30c090a6803f737f1f620de49e660652990691",
+    "sources/urllib3/urllib3/exceptions.py": "8503c7a2aa38cb0e3a7ac3525647225505d5520031580825b21e8c6f242d6be4",
+    "sources/urllib3/urllib3/fields.py": "6862c5015669554f856c996596f7b8021834fa91fd659050d88cfb95fa648e43",
+    "sources/urllib3/urllib3/filepost.py": "53c78d67e9a928a1e1ae56c7104893c7180ad7a21e8e111aeeecf8db2a80fdd2",
+    "sources/urllib3/urllib3/http2/__init__.py": "c73ac0487ed1e4035190f24ea2de651a70133aadca2aec97cc8e36adc9f09aab",
+    "sources/urllib3/urllib3/http2/connection.py": "9e3960af8c0b862009bed52ac44127e12f79be27db95346b9ab6911e809cbfad",
+    "sources/urllib3/urllib3/http2/probe.py": "9e7024a9b8406a43a217be6bcfb5b4b9d677f047a1fee0fc7e357be0def71442",
+    "sources/urllib3/urllib3/poolmanager.py": "46654506338ff9a0e79baeef8a409af7d37aad001633150384a1eb4a5d1ff4cb",
+    "sources/urllib3/urllib3/response.py": "0e4559c737914d4f8f941dca9ecfaf6caec6792258302bffec7b8b41dae3c71a",
+    "sources/urllib3/urllib3/util/__init__.py": "faa792d1071e8af6b3bc110a0cd142008fba00271d0ce1384ccbe8ed22cd9404",
+    "sources/urllib3/urllib3/util/connection.py": "2633bbdb69731e5ccb5cf4e4afd65605d86c7979cc5633126f50c92d5ad74a74",
+    "sources/urllib3/urllib3/util/proxy.py": "b1e3fcf90e41e9b07474cb703e3f98719650df4bc7b8ba91bbeb48d096767f3b",
+    "sources/urllib3/urllib3/util/request.py": "d9af3b7ae5309e3ca50777f27994b3fd5b3aeb32c6aaa44a252ddba5366c89b0",
+    "sources/urllib3/urllib3/util/response.py": "bd013adfdba81218f5be98c4771bb994d22124249466477ba6a965508d0164e0",
+    "sources/urllib3/urllib3/util/retry.py": "0fdc26b67d1ecc42b0cab3972f20bb07284d783f4dc318394fe8b99098c42925",
+    "sources/urllib3/urllib3/util/ssl_.py": "72c779c13f6e2afa22149d75f98a5fab0cdc886193515d9dae62e12354fd61c4",
+    "sources/urllib3/urllib3/util/ssl_match_hostname.py": "16de38289cd3cc632629f7ff6573fdd658b65785a19af132d7a3ca05cbf8bd99",
+    "sources/urllib3/urllib3/util/ssltransport.py": "133e0ef2947fbd3f1d6a7fc5bea0584ba7600df05710c7d57ebcdc754a167e2e",
+    "sources/urllib3/urllib3/util/timeout.py": "e1e4f5155799654ee1ee6603d49ab639735ee1fc5e91d36f868594919bac4690",
+    "sources/urllib3/urllib3/util/url.py": "6a2814d91987dd9728278d413a154ee5277b15cb262d9945425377f2a693311f",
+    "sources/urllib3/urllib3/util/util.py": "8f795b64ad633f28b00f7e13f08809cdd5846554fee04fb4bd82098bd52378d0",
+    "sources/urllib3/urllib3/util/wait.py": "fe987c22b511deca8faa2d0ea29420254947e30ce419e3390a2c80ed7186b662"
+  },
+  "source_capture_method": "Existing authorized Kaggle CLI virtual environment; no import, install, modification or phone access",
+  "copied_upstream_licenses_preserved": true,
+  "namespace_extension_plugin_worker_coverage_not_universal": true
+}

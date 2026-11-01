@@ -1,0 +1,431 @@
+{
+  "format": "real_library_feedback_utility_v1",
+  "created_utc": "2026-10-09T05:43:54.250019+00:00",
+  "driver_sha256": "9cee4e1b5b5b40ed561e1d71120932f40944497d78a50de20b65189dccaa5186",
+  "snapshot_manifest_sha256": "328ac97986d053dda6b6af926c82635ac50036a3af956c50e226c975a3d3f003",
+  "projects": [
+    {
+      "name": "packaging",
+      "edited_path": "packaging/utils.py",
+      "observed_modules": [
+        "packaging",
+        "packaging.utils"
+      ],
+      "assertion": "from packaging.utils import canonicalize_name\nassert canonicalize_name(\"Django_Name\") == \"django-name\"\n",
+      "fault": {
+        "old": "value = name.lower().replace",
+        "new": "value = name.upper().replace"
+      },
+      "primary_documentation": "https://packaging.pypa.io/en/stable/utils.html",
+      "version": "26.3",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 22,
+      "licenses": [
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE",
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "sources/packaging/packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ],
+      "original_edited_source_sha256": "a13742cd9994eeca5adfb0249d126408c478026eb1f48cb97afbf2fe9f28ecc6",
+      "faulty_edited_source_sha256": "0221aac33143438a4e1b7021d3e338b0285b701b246daac94c2a0fdaf75acb43",
+      "assertion_sha256": "78189c5de1700643bc75d7c87eedf6d7c163d47cf8a4fc7dedaac3018fe94833"
+    },
+    {
+      "name": "idna",
+      "edited_path": "idna/core.py",
+      "observed_modules": [
+        "idna",
+        "idna.core"
+      ],
+      "assertion": "from idna.core import valid_label_length\nassert valid_label_length(\"a\" * 62) is True\n",
+      "fault": {
+        "old": "return len(label) <= 63",
+        "new": "return len(label) <= 61"
+      },
+      "primary_documentation": "https://github.com/kjd/idna",
+      "version": "3.20",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 10,
+      "licenses": [
+        "sources/idna/idna-3.20.dist-info/licenses/LICENSE.md"
+      ],
+      "original_edited_source_sha256": "3dd4c3ffee4ff223207fac65f3812a1e6895ae8ad1e7a6ed60115768f3551520",
+      "faulty_edited_source_sha256": "e0407b44d1bebd5ae7a3beb63b970fa98997ecc70feae729412910b68025ab2b",
+      "assertion_sha256": "081762dc1ad324054f64ce65c6795757958e8e0ca28f5f20f320991f71205153"
+    },
+    {
+      "name": "urllib3",
+      "edited_path": "urllib3/_collections.py",
+      "observed_modules": [
+        "urllib3",
+        "urllib3._collections"
+      ],
+      "assertion": "from urllib3._collections import HTTPHeaderDict\nh = HTTPHeaderDict({\"Content-Type\": \"text/plain\"})\nassert h.get(\"CONTENT-TYPE\") == \"text/plain\"\n",
+      "fault": {
+        "old": "val = self._container[key.lower()]\n        return \", \".join(val[1:])",
+        "new": "val = self._container[key.upper()]\n        return \", \".join(val[1:])"
+      },
+      "primary_documentation": "https://github.com/urllib3/urllib3",
+      "version": "2.8.0",
+      "snapshot_origin": "Installed distribution source bytes copied read-only; not a full Git repository or natural bug sample",
+      "source_files": 36,
+      "licenses": [
+        "sources/urllib3/urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "original_edited_source_sha256": "1fac8ba8659d64d919d0b9bf7e72c4caaba59ce716eaab570a1daacf183bdf15",
+      "faulty_edited_source_sha256": "1ed222ecbd8767f77a3bcef6b71885ca5f18553a9870f76778dab7170c88ffc9",
+      "assertion_sha256": "af4f652a04120407d6e12b7a63ab115a07c93a948014b328d7969547a0e20fd9"
+    }
+  ],
+  "conditions": [
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "faulty",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "faulty",
+      "original",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "faulty",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "flat",
+      "original",
+      "original",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "faulty",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "faulty",
+      "original",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "faulty",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "workspace",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "workspace",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "workspace",
+      "nested_worker_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "foreign",
+      "fresh_same_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "foreign",
+      "fresh_other_interpreter"
+    ],
+    [
+      "src",
+      "original",
+      "original",
+      "foreign",
+      "nested_worker_other_interpreter"
+    ]
+  ],
+  "repetitions": 2,
+  "assigned_conditions": 288,
+  "observer_on_and_off_checks_per_condition": 2,
+  "assertions_unchanged": true,
+  "intervention": "Controlled same-length source faults; same-version foreign copies; direct and nested fresh processes in two isolated interpreters.",
+  "selected_projects_fixed_before_execution": true,
+  "source_hashes_are_post_check_file_observations": true,
+  "no_source_or_assertion_mutation_between_preflight_and_check": true,
+  "no_claim_about_exact_executed_bytes_or_all_imports": true,
+  "comparison_is_constructed_mechanism_not_natural_fault_prevalence": true,
+  "network_or_dependency_installation_required": false,
+  "models_or_phone_accessed": false,
+  "regression_faults_are_not_natural_issues_or_agent_repairs": true,
+  "stop_rule": "Preserve all assignments and setup exceptions; no project replacement or selective reruns."
+}

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1010" viewBox="0 0 1520 1010" role="img" aria-labelledby="title desc">
+  <title id="title">NeuralOS architecture and evidence chain</title>
+  <desc id="desc">A proposed native coding episode flows from frozen assignment inputs through native E2B inference and a whole-engine controller, byte-preserving export and recovery, prepared independent host grading, and audit analysis. A CPU audit matches the bytes of all 524 prepared Rich source files to the official starting tree, excluding Git metadata and without establishing permissions or private-scoring equivalence. Native coding episodes and grades have not yet been measured. A separate retained emulator resource pilot completed six of six comparison probes for each policy, zero of three for a strict predictive diagnostic, and covered three of six joint sampled forecasts. Physical phone testing is deferred.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#456078"/></marker>
+  </defs>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#18304a}
+    .title{font-size:39px;font-weight:700}
+    .subtitle{font-size:23px;fill:#456078}
+    .section{font-size:23px;font-weight:700}
+    .card-title{font-size:25px;font-weight:700}
+    .body{font-size:19px}
+    .small{font-size:17px;fill:#456078}
+    .badge{font-size:15px;font-weight:700;letter-spacing:1px}
+    .metric{font-size:25px;font-weight:700}
+    .muted{fill:#456078}
+    .warning{fill:#795515}
+  </style>
+  <rect width="1520" height="1010" fill="#ffffff"/>
+  <text x="50" y="66" class="title">NeuralOS evidence chain</text>
+  <text x="50" y="105" class="subtitle">Implemented prototype, retained resource pilot, and prepared coding evaluation</text>
+  <rect x="50" y="140" width="1420" height="42" rx="10" fill="#eef3f8"/>
+  <text x="70" y="168" class="body">Proposed coding-episode flow • no native coding episode or independently graded mobile repair is established</text>
+
+  <rect x="50" y="208" width="260" height="276" rx="16" fill="#f5f8fb" stroke="#57718b" stroke-width="2"/>
+  <rect x="70" y="230" width="190" height="29" rx="6" fill="#e1eaf3"/>
+  <text x="82" y="250" class="badge">PREPARED INPUTS</text>
+  <text x="70" y="298" class="card-title">Freeze assignment</text>
+  <text x="70" y="335" class="body"><tspan x="70" dy="0">Problem + genuine source</tspan><tspan x="70" dy="31">Grader assets excluded</tspan><tspan x="70" dy="31">Configuration + hashes</tspan></text>
+  <text x="70" y="447" class="small"><tspan x="70" dy="0">Rich source: 524/524</tspan><tspan x="70" dy="23">file bytes match official base</tspan></text>
+
+  <path d="M317 348 H332" stroke="#456078" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="340" y="208" width="260" height="276" rx="16" fill="#eff8f6" stroke="#247768" stroke-width="2"/>
+  <rect x="360" y="230" width="209" height="29" rx="6" fill="#d7eee8"/>
+  <text x="372" y="250" class="badge" fill="#185c50">NATIVE PROTOTYPE</text>
+  <text x="360" y="298" class="card-title">Native generation</text>
+  <text x="360" y="335" class="body"><tspan x="360" dy="0">E2B on Android CPU</tspan><tspan x="360" dy="31">Whole-engine controller</tspan><tspan x="360" dy="31">Bounded repository tools</tspan></text>
+  <text x="360" y="447" class="small"><tspan x="360" dy="0">Sampled state + journals</tspan><tspan x="360" dy="23">No on-device test runner</tspan></text>
+
+  <path d="M607 348 H622" stroke="#456078" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="630" y="208" width="260" height="276" rx="16" fill="#eff8f6" stroke="#247768" stroke-width="2"/>
+  <rect x="650" y="230" width="167" height="29" rx="6" fill="#d7eee8"/>
+  <text x="662" y="250" class="badge" fill="#185c50">IMPLEMENTED CODE</text>
+  <text x="650" y="298" class="card-title">Export + recovery</text>
+  <text x="650" y="335" class="body"><tspan x="650" dy="0">Base-bound changed bytes</tspan><tspan x="650" dy="31">Host patch reconstruction</tspan><tspan x="650" dy="31">Complete-import receipt</tspan></text>
+  <text x="650" y="447" class="small"><tspan x="650" dy="0">Synthetic transport checks</tspan><tspan x="650" dy="23">Device recovery untested</tspan></text>
+
+  <path d="M897 348 H912" stroke="#456078" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="920" y="208" width="260" height="276" rx="16" fill="#fff9ee" stroke="#b68836" stroke-width="2" stroke-dasharray="7 5"/>
+  <rect x="940" y="230" width="190" height="29" rx="6" fill="#f9e9c7"/>
+  <text x="952" y="250" class="badge warning">PREPARED HOST PATH</text>
+  <text x="940" y="298" class="card-title">Independent grade</text>
+  <text x="940" y="335" class="body"><tspan x="940" dy="0">Base + reference controls</tspan><tspan x="940" dy="31">Unchanged candidate patch</tspan><tspan x="940" dy="31">Pinned grader environment</tspan></text>
+  <text x="940" y="447" class="small"><tspan x="940" dy="0">No actual mobile candidate</tspan><tspan x="940" dy="23">has been graded</tspan></text>
+
+  <path d="M1187 348 H1202" stroke="#456078" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="1210" y="208" width="260" height="276" rx="16" fill="#f5f8fb" stroke="#57718b" stroke-width="2"/>
+  <rect x="1230" y="230" width="188" height="29" rx="6" fill="#e1eaf3"/>
+  <text x="1242" y="250" class="badge">AUDIT + ANALYSIS</text>
+  <text x="1230" y="298" class="card-title">Reconcile evidence</text>
+  <text x="1230" y="335" class="body"><tspan x="1230" dy="0">Assignment / patch hashes</tspan><tspan x="1230" dy="31">Failures + unknowns kept</tspan><tspan x="1230" dy="31">Session-level outcomes</tspan></text>
+  <text x="1230" y="447" class="small"><tspan x="1230" dy="0">Local replay available</tspan><tspan x="1230" dy="23">Public release pending</tspan></text>
+
+  <rect x="50" y="524" width="690" height="369" rx="18" fill="#f0f7fc" stroke="#507b9f" stroke-width="2"/>
+  <text x="74" y="569" class="section">Observed development pilot</text>
+  <text x="74" y="602" class="body muted">Android emulator + Luanti • resource probes only</text>
+  <line x1="74" y1="623" x2="716" y2="623" stroke="#b9ccdc"/>
+  <text x="74" y="660" class="body">Predictive comparison / reactive comparison</text>
+  <text x="618" y="660" class="metric" text-anchor="end">6/6 each</text>
+  <text x="74" y="705" class="body">Strict predictive diagnostic</text>
+  <text x="690" y="705" class="metric" text-anchor="end">0/3</text>
+  <text x="74" y="750" class="body">Joint sampled process / UID / global coverage</text>
+  <text x="690" y="750" class="metric" text-anchor="end">3/6</text>
+  <text x="74" y="795" class="body">Predictive median provider latency difference</text>
+  <text x="690" y="795" class="metric" text-anchor="end">+160 ms</text>
+  <text x="74" y="841" class="small"><tspan x="74" dy="0">Two sessions per comparison arm; differing forecast allowances.</tspan><tspan x="74" dy="24">No causal gain, coding correctness, or foreground QoS result.</tspan></text>
+
+  <rect x="780" y="524" width="690" height="369" rx="18" fill="#fff9ee" stroke="#b68836" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="804" y="569" class="section">Prospective coding evidence</text>
+  <text x="804" y="602" class="body warning">Actual repairs and matched policy evaluation remain unmeasured</text>
+  <line x1="804" y1="623" x2="1446" y2="623" stroke="#e4d3af"/>
+  <text x="804" y="661" class="body"><tspan x="804" dy="0">1. Validate fresh grading controls for actual candidate patches</tspan><tspan x="804" dy="40">2. Retain real native patches and independent grades</tspan><tspan x="804" dy="40">3. Freeze fitting, assignments, and matched session conditions</tspan><tspan x="804" dy="40">4. Measure foreground input / frames, energy, and temperature</tspan></text>
+  <text x="804" y="841" class="small"><tspan x="804" dy="0">Physical-phone measurements are a separate stratum.</tspan><tspan x="804" dy="24">USB testing remains deferred; missing outcomes remain unknown.</tspan></text>
+
+  <text x="50" y="945" class="small">Retained pilot: 20261002T080929346071 • offline replay verifies 128 inventory files and all six sessions</text>
+  <text x="50" y="977" class="small">Rich source audit excludes .git; permissions / private scoring unproved • local figure awaits public Kaggle upload</text>
+</svg>

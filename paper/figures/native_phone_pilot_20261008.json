@@ -1,0 +1,21 @@
+{
+  "scope": "single_exposed_phone_episode_not_accuracy_or_gain",
+  "sources": {
+    "episode.json": "79d3ea88804fefdbc348db2f4d8d7db178093fdc86554b566b43fbbce441eeca",
+    "memory_samples.jsonl": "abe13547495690d3cdcdcf6b893c24989d8fbc1532e8402430096df0cdaff87f",
+    "tool_results.jsonl": "19bba328ac0144f1599cb755075125f1efb9529886e45339bca2bdb7515e5571"
+  },
+  "analysis_sha256": "d80bd641d1fa7a24616e62aeed74f3f6e258320767fca81b549a638c3739213f",
+  "elapsed_seconds": 222.868,
+  "samples": 528,
+  "sampled_maximum_whole_app_PSS_MiB": 2923.5478515625,
+  "tool_successes": 1,
+  "tool_failures": 4,
+  "generated_token_count_measured": false,
+  "model_token_count_is_total_conversation": true,
+  "outputs": {
+    "native_phone_pilot_20261008.png": "96f79a2db64785bcaf072b8c8e366cadc694f8f364e6bf1d99e307cddf070f4a",
+    "native_phone_pilot_20261008.svg": "514c5c9e32f681b9cca4a3d7e87c83360b5c50e2ab2cfc9ce3caca4def9c02ab",
+    "native_phone_pilot_20261008.pdf": "52ad4699f53992160edeeea59880659e3fff22eb5e06538cfcb6952ddf308701"
+  }
+}

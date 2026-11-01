@@ -1,0 +1,121 @@
+{
+  "kind": "replay_of_retained_development_evidence_not_new_measurements",
+  "comparison_id": "20261002T080929346071",
+  "inventory_files_verified": 128,
+  "analysis_sha256": "1597556390a3a87be652380d93522a2c8de48ac043131a55aa8930b61b3ecd22",
+  "source_pin_sha256": "b2fda28c2287d7cebb1a8dc983a3df0e24eb878a968c965a36304744c050a11a",
+  "episodes": [
+    {
+      "label": "ordinary_app_reference",
+      "run_id": "20261002T080930808451",
+      "policy": "NO_AI",
+      "assigned": 0,
+      "completed_resource_requests": 0,
+      "median_provider_latency_ms": null,
+      "foreground_samples": 79,
+      "expected_foreground_samples": 79,
+      "forecast_soft_excess_mib": 0,
+      "semantic_correctness": null,
+      "matched_arm": false
+    },
+    {
+      "label": "strict_resident_zero_risk_diagnostic",
+      "run_id": "20261002T081108994616",
+      "policy": "PREDICTIVE",
+      "assigned": 3,
+      "completed_resource_requests": 0,
+      "median_provider_latency_ms": null,
+      "foreground_samples": 66,
+      "expected_foreground_samples": 66,
+      "forecast_soft_excess_mib": 0,
+      "semantic_correctness": null,
+      "matched_arm": false
+    },
+    {
+      "label": "matched_A1",
+      "run_id": "20261002T081229692685",
+      "policy": "PREDICTIVE",
+      "assigned": 3,
+      "completed_resource_requests": 3,
+      "median_provider_latency_ms": 18796,
+      "foreground_samples": 115,
+      "expected_foreground_samples": 115,
+      "forecast_soft_excess_mib": 128,
+      "semantic_correctness": null,
+      "matched_arm": true
+    },
+    {
+      "label": "matched_B1",
+      "run_id": "20261002T081452913350",
+      "policy": "BUDGET_REACTIVE",
+      "assigned": 3,
+      "completed_resource_requests": 3,
+      "median_provider_latency_ms": 22331,
+      "foreground_samples": 119,
+      "expected_foreground_samples": 119,
+      "forecast_soft_excess_mib": 0,
+      "semantic_correctness": null,
+      "matched_arm": true
+    },
+    {
+      "label": "matched_B2",
+      "run_id": "20261002T081725233409",
+      "policy": "BUDGET_REACTIVE",
+      "assigned": 3,
+      "completed_resource_requests": 3,
+      "median_provider_latency_ms": 19138,
+      "foreground_samples": 115,
+      "expected_foreground_samples": 115,
+      "forecast_soft_excess_mib": 0,
+      "semantic_correctness": null,
+      "matched_arm": true
+    },
+    {
+      "label": "matched_A2",
+      "run_id": "20261002T081950152738",
+      "policy": "PREDICTIVE",
+      "assigned": 3,
+      "completed_resource_requests": 3,
+      "median_provider_latency_ms": 22648,
+      "foreground_samples": 123,
+      "expected_foreground_samples": 123,
+      "forecast_soft_excess_mib": 128,
+      "semantic_correctness": null,
+      "matched_arm": true
+    }
+  ],
+  "matched_arms": {
+    "PREDICTIVE": {
+      "assigned": 6,
+      "completed": 6,
+      "foreground_samples": 238,
+      "expected_foreground_samples": 238,
+      "episodes": 2,
+      "median_provider_latency_ms": 20894.5
+    },
+    "BUDGET_REACTIVE": {
+      "assigned": 6,
+      "completed": 6,
+      "foreground_samples": 234,
+      "expected_foreground_samples": 234,
+      "episodes": 2,
+      "median_provider_latency_ms": 20734.5
+    }
+  },
+  "predictive_sampled_coverage": {
+    "process": 6,
+    "uid": 6,
+    "global": 3,
+    "joint_process_uid_global": 3,
+    "eligible_completed_stages": 6
+  },
+  "predictive_minus_reactive_median_provider_latency_ms": 160.0,
+  "maximum_sampled_global_forecast_miss_mib": 105,
+  "minimum_predictive_sampled_available_mib": 4237,
+  "coding_correctness": null,
+  "physical_phone_measurements": null,
+  "continuous_memory_safety": null,
+  "policy_superiority_established": false,
+  "coverage_replay_scope": "pinned_existing_sampled_forecast_analysis_with_raw_inventory_verification",
+  "inference_scope": "descriptive_only_two_sessions_per_arm_nonrandomized_different_forecast_allowances"
+}

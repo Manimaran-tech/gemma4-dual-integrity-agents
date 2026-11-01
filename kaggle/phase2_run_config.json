@@ -1,0 +1,18 @@
+{
+  "required_model": "gemma-4-31b-it-qat-w4a16-ct",
+  "experiment": "no_adapter_official_baseline",
+  "official_run_argv": null,
+  "official_run_cwd": null,
+  "official_result_path": null,
+  "model_source": null,
+  "dataset_revision": null,
+  "max_process_seconds": 43200,
+  "official_guide_sha256": "3d6e57a13234cb4e783ba24eaab486459af76e0923ea4c6607cd41cc8961bbbb",
+  "public_tasks_sha256": "e4b3fd60f69dbc2b9213e54eeb9636db78aefe92c1d06269d73d9f5f8f3c8ad6",
+  "status": "documented_CLI_not_executed_official_Python_API_smoke_executed_0_of_1",
+  "actual_python_api_run": "reports/kaggle_runs/20261003_smoke/analysis.json",
+  "actual_python_api_environment": "NVIDIA_L4_x4_internet_off_original_2026_07_01_environment",
+  "actual_python_api_model": "gemma-4-31b-it-qat-w4a16-ct_revision_2",
+  "cli_environment_execution_verified": false,
+  "official_leaderboard_score": null
+}
